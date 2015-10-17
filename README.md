@@ -1,4 +1,4 @@
-# archlinux-httpd-modsecurity
+# archlinux-modsecurity
 archlinux-modsecurity
 #Installing
 cd /tmp/
