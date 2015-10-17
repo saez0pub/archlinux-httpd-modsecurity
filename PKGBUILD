@@ -1,4 +1,4 @@
-# Maintainer: saez0pub https://github.com/saez0pub/archlinux-httpd-modsecurity.git
+# Maintainer: saez0pub https://github.com/saez0pub/archlinux-modsecurity.git
 pkgname=apache-modsecurity
 pkgver=2.9.0
 pkgrel=1
@@ -9,7 +9,7 @@ license=('ASLv2')
 depends=('apr' 'apr-util' 'libxml2' 'curl' 'lua51' 'pcre')
 makedepends=()
 source=("https://www.modsecurity.org/tarball/2.9.0/modsecurity-${pkgver}.tar.gz"
-	'modsecurity.conf')
+	'modsecurity-apache.conf')
 md5sums=('ecf42d21f26338443d7111891851628c'
 	'ea01299d9706ddb2742b928877679f92')
 
